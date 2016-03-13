@@ -32,7 +32,7 @@ SOCIAL = (('linkedin',  'https://www.linkedin.com/in/michaelttoth'),
 	  ('facebook', 	'https://www.facebook.com/tothmt'),
 	  ('twitter', 	'https://twitter.com/Michael_Toth'),
           ('google', 	'https://plus.google.com/+MichaelToth2/'),
-	  ('rss', 	'michaeltoth.me/feeds/all.atom.xml'),)
+	  ('rss', 	'/feeds/all.atom.xml'),)
           #('quora', 	'https://www.quora.com/Michael-Toth-1'),)
 
 MENUITEMS = (('Archives', '/archives.html'),
