@@ -8,8 +8,8 @@ SITETITLE = AUTHOR
 SITESUBTITLE = u'Data Scientist'
 SITEDESCRIPTION = u'%s\'s Thoughts and Writings' % AUTHOR
 SITELOGO = 'https://qph.is.quoracdn.net/main-thumb-7362250-200-ugpksvyqbzsktznpdworrsucakndefsk.jpeg' # Change to http://michaeltoth.me/img/profile.png
-SITEURL = 'http://michaeltoth.me'
-#FAVICON = SITEURL + '/images/favicon.ico' # Make this a favicon of your profile picture
+SITEURL = 'http://localhost:8000'
+FAVICON = SITEURL + '/images/favicon.ico' # Make this a favicon of your profile picture
 
 THEME = u"../Flex"
 PATH = 'content'
@@ -18,17 +18,13 @@ DEFAULT_LANG = u'en'
 #OG_LOCALE = u'en_US'
 #LOCALE = u'en_US'
 
-DISQUS_SITENAME = "michaeltoth"
-
 FEED_ALL_ATOM =	'feeds/all.atom.xml'
 
+DISPLAY_PAGES_ON_MENU = False # Don't display all pages by default
 USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
 
-# Blogroll
-LINKS = (('About', 	'http://michaeltoth.me/pages/about.html'),
-         ('Contact', 	'http://michaeltoth.me/pages/contact.html'),
-         ('Projects', 	'http://michaeltoth.me/pages/projects.html'),)
+#LINKS = ()
 
 # Social widget
 SOCIAL = (('linkedin',  'https://www.linkedin.com/in/michaelttoth'),
