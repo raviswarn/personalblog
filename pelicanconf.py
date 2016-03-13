@@ -8,15 +8,15 @@ SITETITLE = AUTHOR
 SITESUBTITLE = u'Data Scientist'
 SITEDESCRIPTION = u'%s\'s Thoughts and Writings' % AUTHOR
 SITELOGO = 'https://qph.is.quoracdn.net/main-thumb-7362250-200-ugpksvyqbzsktznpdworrsucakndefsk.jpeg' # Change to http://michaeltoth.me/img/profile.png
-#SITEURL = 'http://michaeltoth.me'
+SITEURL = 'http://michaeltoth.me'
 #FAVICON = SITEURL + '/images/favicon.ico' # Make this a favicon of your profile picture
 
 THEME = u"../Flex"
 PATH = 'content'
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = u'en'
-OG_LOCALE = u'en_US'
-LOCALE = u'en_US'
+#OG_LOCALE = u'en_US'
+#LOCALE = u'en_US'
 
 DISQUS_SITENAME = "michaeltoth"
 
