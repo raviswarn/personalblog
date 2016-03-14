@@ -26,7 +26,7 @@ A connectivity problem seeks to determine, given a directed graph of sites
 such as the one below, whether two sites are connected via any path. 
 
 <br>
-<img src="http://www.michaeltoth.net/Percolation/connected.jpg", alt="Connected Sites")>  
+![Connected Sites]({filename}/images/connected.jpg)
 <br>
 
 For a small set of sites like this one, a brute force approach would solve the 
@@ -41,7 +41,7 @@ the same component.  Connecting two sites under this new representation involves
 merging their components rather than drawing paths.  
 
 <br>
-<img src="http://www.michaeltoth.net/Percolation/connectedcomponents.png" alt="Connected Components")>  
+![Connected Components]({filename}/images/connected-components.png)
 <br>
 
 The Union Find data structure, sometimes called a disjoint set data structure or
@@ -142,7 +142,7 @@ an unbroken path to the top of the grid, such that water will flow freely
 through the system, as seen in the image below.
 
 <br>
-<img src="http://michaeltoth.github.io/img/percolation.png" alt="Percolation" height="300", width="300">  
+![Percolation]({filename}/images/percolation.png)
 <br>
 
 *Modeling percolation with the Union-Find algorithm*  

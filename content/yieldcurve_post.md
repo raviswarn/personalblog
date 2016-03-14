@@ -12,7 +12,7 @@ Last week I came across a [graphic](http://isomorphism.es/post/101890975168/trea
 
 Building on the original plot mentioned above, I pulled post-2012 data directly from the treasury website and added it to the original data to produce an extended graphic of yield curve changes. I also updated the plot formatting and highlighted periods with inverted yield curves using a bright red line.  
 <br>
-<img src="http://www.michaeltoth.net/img/yieldOutput.gif", alt="Yield Curve")>  
+![Yield Curve]({filename}/images/yield-output.gif)
 <br>  
 
 I've always liked graphics like this that show some changing feature over time, and I think the yield curve illustration is particularly informative.  You can clearly see the extreme high interest rates that prevailed throughout the 1980s, and later the characteristically flat yield curve associated with the [Zero Interest Rate Policy](http://en.wikipedia.org/wiki/Zero_interest-rate_policy) regime post-2008. The few yield curve inversions (referring to the situation where short term rates are higher than long term rates), are visible as well, highlighted in red. Yield curve inversions are generally thought to signal an impending economic decline, so highlighting these is informative. The plot also shows clearly that long-term rates historically are much less volatile than short term rates, but that the opposite has held true since 2008, with Federal Reserve action keeping short term rates near zero.  
