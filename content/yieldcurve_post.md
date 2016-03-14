@@ -1,10 +1,10 @@
-Title: Plotting the Treasury Yield Curve through Time
+Title: Plotting the Evolution of the U.S. Treasury Yield Curve
 Date: 2014-11-12 20:01
 Authors: Michael Toth
 Modified: 2014-11-12 20:01
 Category: R
 Tags: R, Projects
-Slug: YieldCurve
+Slug: plotting-the-evolution-of-the-us-treasuryyield-curve
 author_gplusid: 103836786232018210272
 Summary: Examining the history of the U.S. Treasury yield curve from 1982 through 2014 through R plotting. This post offered me a good opportunity to experiment with R plotting and graphical parameters.
 

@@ -1,10 +1,10 @@
-Title: Projecting Default Rates of Lending Club Notes  
+Title: Analyzing Historical Default Rates of Lending Club Notes  
 Date: 2015-03-09 21:28  
 Authors: Michael Toth  
 Modified: 2015-03-09 21:28  
 Category: R  
 Tags: R, Projects  
-Slug: LendingClub  
+Slug: analyzing-historical-default-rates-of-lending-club-notes
 author_gplusid: 103836786232018210272  
 Summary: This post briefly discusses the background of peer-to-peer lending before diving into some exploratory data analysis on the Lending Club data set. This will be the first in a series of posts with the aim of creating a predictive model to determine the probability of default for peer-to-peer loans.
 

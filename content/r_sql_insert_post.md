@@ -1,10 +1,10 @@
-Title: Inserting an R Data Frame into an SQL Table
+Title: How to write an R Data Frame to an SQL Table
 Date: 2015-07-08 20:45
 Authors: Michael Toth
 Modified: 2015-07-08 20:45 
 Category: R
 Tags: R, SQL
-Slug: R_SQL_Insert
+Slug: how-to-write-an-r-data-frame-to-an-sql-table
 author_gplusid: 103836786232018210272
 Summary: A brief tutorial on how you can create SQL tables directly from R to make querying based on a list of IDs a simpler process 
 
@@ -55,8 +55,7 @@ sql <- "
     where date between '2000-01-01' and '2015-07-08'
 "
 
-res <- dbSendQuery(con, sql)
-results <- fetch(res, 100000)
+results <- dbGetQuery(con, sql)
 
 # Free up resources
 dbDisconnect(con)

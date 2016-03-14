@@ -1,14 +1,14 @@
-Title: Creating the Percolation Visualization
+Title: Using Javascript to Visualize a Percolation System
 Date: 2014-10-16 19:27
 Authors: Michael Toth
 Modified: 2014-10-16 19:27
 Category: Projects
 Tags: Javascript, Canvas, Projects
-Slug: Percolation
+Slug: using-javascript-to-visualize-a-percolation-system
 author_gplusid: 103836786232018210272
 Summary: In this post I will discuss the background for the [percolation visualization page](http://www.michaeltoth.net/Percolation/percolation.html "Michael Toth - Percolation Visualization") and the details of my implementation. I hope to provide a good introduction to percolation theory and the union find algorithm in particular.  This is the first non-trivial Javascript application I've created, and later in the post I will discuss some of the biggest challenges I faced and things I learned along the way.  
 
-In this post I will discuss the background for the [percolation visualization page](http://www.michaeltoth.net/Percolation/percolation.html "Michael Toth - Percolation Visualization") and the details of my implementation. I hope to provide a good introduction to percolation theory and the union find algorithm in particular.  This is the first non-trivial Javascript application I've created, and later in the post I will discuss some of the biggest challenges I faced and things I learned along the way.  
+In this post I will discuss the background for my [percolation visualization page](http://www.michaeltoth.me/pages/percolation.html "Michael Toth - Percolation Visualization") and the details of my implementation. I hope to provide a good introduction to percolation theory and the union find algorithm in particular.  This is the first non-trivial Javascript application I've created, and later in the post I will discuss some of the biggest challenges I faced and things I learned along the way.  
 
 ##Background
 The inspiration and idea for this project came directly from the similar 
