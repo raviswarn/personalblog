@@ -7,9 +7,9 @@ SITENAME = u"Michael Toth's Blog"
 SITETITLE = AUTHOR
 SITESUBTITLE = u'Data Scientist'
 SITEDESCRIPTION = u'%s\'s Thoughts and Writings' % AUTHOR
-SITELOGO = 'https://qph.is.quoracdn.net/main-thumb-7362250-200-ugpksvyqbzsktznpdworrsucakndefsk.jpeg' # Change to http://michaeltoth.me/img/profile.png
 SITEURL = 'http://localhost:8000'
-FAVICON = SITEURL + '/images/favicon.ico' # Make this a favicon of your profile picture
+SITELOGO = SITEURL + '/images/profile.jpeg'
+FAVICON = SITEURL + '/images/favicon.ico' 
 
 THEME = u"../Flex"
 PATH = 'content'
