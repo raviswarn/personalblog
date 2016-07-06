@@ -6,7 +6,7 @@ Category: R
 Tags: R, Projects, Shiny
 Slug: installing-and-running-shiny-server-from-source-on-32-bit-ubuntu
 author_gplusid: 103836786232018210272
-Summary: Include Summary
+Summary: A detailed guide to the exact steps I took to get a shiny server running on my 32-bit cloud-based ubuntu server on Digital Ocean.  
 
 I recently migrated this site from a shared web hosting service to [DigitalOcean](https://m.do.co/c/e38e89eb35d9) because I was interested in learning about how to host my own site and how web servers work. I also wanted to play with and host shiny applications on my own site, rather than relying on a third-party service provider. 
 
