@@ -3,6 +3,7 @@ Date: 2016-03-13 15:00
 
 Below are links to some of my other writing published outside of this blog. Currently this list is mostly research and blog posts on the marketplace lending industry that I've published at [Orchard](https://www.orchardplatform.com), but I expect this list to continue to grow!
 
+* [Orchard Blog - Lending: A Geographical Analysis](http://www.orchardplatform.com/blog/lending-geographical-analysis/)
 * [Orchard Research - Quarterly Industry Report (Q1 2016)](https://www.orchardplatform.com/wp-content/uploads/2016/06/Orchard_Quarterly_Industry_Report_Q1_2016.pdf)
 * [Orchard Blog - Seasonality in Loan Performance](http://www.orchardplatform.com/blog/seasonality-loan-performance/)
 * [Orchard Research White Paper - Stress Testing Marketplace Lending in a Rapidly Changing Environment](https://www.orchardplatform.com/wp-content/uploads/2016/03/Orchard_white_paper_Stress_Testing.pdf)
