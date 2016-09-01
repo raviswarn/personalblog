@@ -6,9 +6,9 @@ Category: Projects
 Tags: Javascript, Canvas, Projects
 Slug: using-javascript-to-visualize-a-percolation-system
 author_gplusid: 103836786232018210272
-Summary: In this post I will discuss the background for the [percolation visualization page](http://www.michaeltoth.net/Percolation/percolation.html "Michael Toth - Percolation Visualization") and the details of my implementation. I hope to provide a good introduction to percolation theory and the union find algorithm in particular.  This is the first non-trivial Javascript application I've created, and later in the post I will discuss some of the biggest challenges I faced and things I learned along the way.  
+Summary: In this post I will discuss the background for the [percolation visualization page](../pages/percolation.html "Michael Toth - Percolation Visualization") and the details of my implementation. I hope to provide a good introduction to percolation theory and the union find algorithm in particular.  This is the first non-trivial Javascript application I've created, and later in the post I will discuss some of the biggest challenges I faced and things I learned along the way.  
 
-In this post I will discuss the background for my [percolation visualization page](http://www.michaeltoth.me/pages/percolation.html "Michael Toth - Percolation Visualization") and the details of my implementation. I hope to provide a good introduction to percolation theory and the union find algorithm in particular.  This is the first non-trivial Javascript application I've created, and later in the post I will discuss some of the biggest challenges I faced and things I learned along the way.  
+In this post I will discuss the background for my [percolation visualization page](../pages/percolation.html "Michael Toth - Percolation Visualization") and the details of my implementation. I hope to provide a good introduction to percolation theory and the union find algorithm in particular.  This is the first non-trivial Javascript application I've created, and later in the post I will discuss some of the biggest challenges I faced and things I learned along the way.  
 
 ##Background
 The inspiration and idea for this project came directly from the similar 
@@ -175,7 +175,7 @@ system should first percolate after we have opened 59.2746% of the sites.
 ####Creating the Visualization
 Initially I had thought to create the grid of sites using a grid of divs which
 I would then be able to color according to their status, similar to my
-previous [Mondrian Painting Project](http://michaeltoth.net/Mondrian/mondrian.html 
+previous [Mondrian Painting Project](../pages/mondrian.html 
 "Michael Toth - Piet Mondrian Painting").  I wanted to support the ability to 
 change the size of the grid however, and a large number of divs seemed 
 unnecessarily cumbersome.  I did some searching on [Codepen.io](http://codepen.io 
@@ -248,6 +248,6 @@ See the full code for my percolation visualization on my Github:
 [Percolation](https://raw.githubusercontent.com/michaeltoth/michaeltoth/master/content/pages/percolation.md 
 "Percolation")  
 <br>
-[Run my percolation visualization](http://michaeltoth.me/pages/percolation.html "Michael Toth - Percolation Visualization")
+[Run my percolation visualization](../pages/percolation.html "Michael Toth - Percolation Visualization")
 
 
