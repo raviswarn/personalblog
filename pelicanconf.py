@@ -11,6 +11,16 @@ SITEURL = 'http://localhost:8000'
 SITELOGO = SITEURL + '/images/profile.jpeg'
 FAVICON = SITEURL + '/images/favicon.ico' 
 
+ROBOTS = 'index, follow'
+
+# Creative Commons Licensing
+CC_LICENSE = {
+        'name': 'Creative Commons Attribution-ShareAlike',
+        'version': '4.0',
+        'slug': 'by-sa'
+}
+COPYRIGHT_YEAR = 2016
+
 THEME = u"../Flex"
 PATH = 'content'
 TIMEZONE = 'America/New_York'
