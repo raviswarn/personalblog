@@ -44,7 +44,8 @@ Status: hidden
     border-radius: 10px;
     margin: 0px 100px 50px 0px;
     width: 64px;
-    display: inline-block
+    display: inline-block;
+    vertical-align: top;
 }
 
 .palette .container {
@@ -56,7 +57,7 @@ Status: hidden
     border: solid 2px black;
     border-radius: 10px;
     padding: 10px;
-    float: left;
+    display: inline-block;
 }
 
 .canvas .container {
@@ -98,8 +99,7 @@ Status: hidden
 		<div id="white" onclick="selectColor('white')"></div>
 		<div id="black" onclick="selectColor('black')"></div>
 	</div>
-</div>	
-
+</div>
 <div class="canvas">
 	<div class="container">
 		<div id = "row1box1" onclick="paint(this)"></div>
@@ -124,6 +124,7 @@ Status: hidden
 		<div id = "row5box4" onclick="paint(this)"></div>
 	</div>
 </div>
+<br>
 </body>
 </html>
 
