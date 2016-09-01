@@ -245,9 +245,9 @@ the possibility of duplicate intervals running simultaneously, and correct the
 issues that I had been facing.  
 <br> 
 See the full code for my percolation visualization on my Github:
-[Percolation](https://github.com/michaeltoth/michaeltoth.github.io/tree/master/Percolation 
+[Percolation](https://raw.githubusercontent.com/michaeltoth/michaeltoth/master/content/pages/percolation.md 
 "Percolation")  
 <br>
-[Run my percolation visualization](http://www.michaeltoth.net/Percolation/percolation.html "Michael Toth - Percolation Visualization")
+[Run my percolation visualization](http://michaeltoth.me/pages/percolation.html "Michael Toth - Percolation Visualization")
 
 

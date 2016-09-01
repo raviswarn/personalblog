@@ -266,7 +266,7 @@ We've gotten a good understanding of the available borrower data, and we've seen
 
 ## Appendix
 
-Below I've included the code used to generate the numbers in the tables above. You can also find the [complete code available on Github](https://github.com/michaeltoth/lending_club/blob/master/LendingClub.R)  
+Below I've included the code used to generate the numbers in the tables above. You can also find the [complete code available on Github](https://github.com/michaeltoth/projects/tree/master/lending-club-analysis)
 
 ```R
 ### Explore the relationships between default rates and factor levels

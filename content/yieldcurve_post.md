@@ -25,7 +25,7 @@ The FedYieldCurve data from the YieldCurve package only contains data through 20
 
 After converting the 2012-2014 data to .xts format and combining with the FedYieldCurve data, I modified the graphical parameters to make for a more interesting plot. Then, using the saveGIF function and a for loop, I was able to create the above GIF with a single frame for each month in the data series.  Within the loop, I included an if statement to determine whether the 3M rate exceeded the 10Y point (inverted yield curve), and plotted these periods using a red line to highlight this.  
 
-I've included the complete R code below. You can also access the code on [Github](https://github.com/michaeltoth/plot-yield-curve)  
+I've included the complete R code below. You can also access the code on [Github](https://github.com/michaeltoth/projects/tree/master/yield-curve-analysis)
 
 ```R
 library(YieldCurve)
