@@ -7,9 +7,11 @@ I try to keep my blog updated with posts about data analysis, data visualization
 
 I'm currently working at [Orchard](https://www.orchardplatform.com) as a data scientist. Orchard is a fintech startup in the online lending industry. I spend a lot of my time producing reproducible research reports on the industry, creating interesting data visualizations, building investment models, and serving as an analytical & data expert in communications with current & prospective clients. For a sample of some of the public work I've done at Orchard, be sure to check out the links on my [writing page]({filename}./writing.md)
 
+I do the majority of my day-to-day work and analyses using R and *nix command-line tools, but I also have experience with the Python data science stack. I enjoy experimenting with different tools, and recently I've spent some time working with D3.js and Tableau, which I hope to do more of in the future.  
+
 Prior to Orchard I was working as a portfolio analyst at [BlackRock](https://www.blackrock.com) where I worked with large institutional investment clients to value and assess the risks of their investment portfolios.
 
-I do the majority of my day-to-day work and analyses using R and *nix command-line tools, but I also have experience with the Python data science stack. I enjoy experimenting with different tools, and recently I've spent some time working with D3.js and Tableau, which I hope to do more of in the future.  
+I graduated from the Wharton School of the University of Pennsylvania, where I concentrated in statistics and financed and received a minor in mathematics.
 
 Outside of work, I enjoy hanging out in coffee shops, drinking craft beer, and playing squash and table tennis.
 
