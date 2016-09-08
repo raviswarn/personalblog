@@ -34,7 +34,7 @@ DISPLAY_PAGES_ON_MENU = False # Don't display all pages by default
 USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
 
-#LINKS = ()
+LINKS = (('R-Bloggers',  'https://www.r-bloggers.com'),)
 
 # Social widget
 SOCIAL = (('linkedin',  'https://www.linkedin.com/in/michaelttoth'),
