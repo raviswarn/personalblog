@@ -39,6 +39,21 @@ a.list-link {
 <div>
     <ul id="project-list">
         <li class="project-list-element">
+            <a href='./most-common-baby-names-by-year.html' class="list-link">
+                <img src='../images/name_popularity_thumb.png' />
+                <h3>Birth Name Rankings Since 1880</h3> 
+                <p>Here I built a Shiny app for analyzing the 10 most popular baby names (according to U.S. Seocial Security Administration data) for any year since 1880, both for males or females. If you're interested in more context or information about the implementation, please check out my  
+<a href='../popularity-of-baby-names-since-1880.html'>blog post!</a></p>
+            </a>
+        </li>
+        <li class="project-list-element">
+            <a href='./tracking-popularity-of-individual-names.html' class="list-link">
+                <img src='../images/name_tracker_thumb.png' />
+                <h3>Birth Name Popularity Since 1880</h3> 
+                <p>This is a Shiny app that graphs the popularity of a particular birth name (according to the U.S. Social Security Administration data) beginning in 1880. For more information and a thorough write-up, please check out my <a href='../popularity-of-baby-names-since-1880.html'>blog post!</a></p>
+            </a>
+        </li>
+        <li class="project-list-element">
             <a href='./percolation.html' class="list-link">
                 <img src='../images/percolation_thumb.png' />
                 <h3>Percolation Problem Visualization</h3> 
