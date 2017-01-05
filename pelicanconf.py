@@ -13,6 +13,8 @@ FAVICON = SITEURL + '/images/favicon.ico'
 
 ROBOTS = 'index, follow'
 
+STATIC_PATHS = ['figure', 'images']
+
 # Creative Commons Licensing
 CC_LICENSE = {
         'name': 'Creative Commons Attribution-ShareAlike',
@@ -25,14 +27,19 @@ THEME = u"../Flex"
 PATH = 'content'
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = u'en'
-#OG_LOCALE = u'en_US'
-#LOCALE = u'en_US'
+DEFAULT_DATE = 'fs'
 
 FEED_ALL_ATOM =	'feeds/all.atom.xml'
 
 DISPLAY_PAGES_ON_MENU = False # Don't display all pages by default
 USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
+
+# Plugin Setup
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['rmd_reader']
+RMD_READER_RENAME_PLOT = 'directory'
+RMD_READER_KNITR_OPTS_CHUNK = {'fig.path': 'figure/'}
 
 LINKS = (('R-Bloggers',  'https://www.r-bloggers.com'),)
 
