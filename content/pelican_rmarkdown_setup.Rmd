@@ -1,0 +1,70 @@
+---
+title: Incorporating RMarkdown and Knitr in a Pelican Blog
+author: "Michael Toth"
+output: html_document
+category: R
+tags: R, Pelican, Blog
+---
+
+In this post I'm going to be talking about how to modify your Pelican blog configuration to easily let you directly publish blog posts using RMarkdown. I'm assuming you already have a Pelican blog set up, so I won't be covering that in today's post. If you're looking for further help on this, I recommend checking out these links:
+
+* [Official Pelican Guide](http://docs.getpelican.com/en/stable/quickstart.html)
+* [Detailed Pelican Setup by Duncan Lock](http://duncanlock.net/blog/2013/05/17/how-i-built-this-website-using-pelican-part-1-setup/)
+
+Until now, I've been writing posts on this blog using standard markdown. This means I'd do any analysis in R, produce a series of graphs and results that I would store locally in image files, and put it all together on my own in a markdown document. It's not that bad, but I wanted to see if there was a better way. 
+
+* [rmd_reader Plugin on Github](https://github.com/getpelican/pelican-plugins/tree/master/rmd_reader)
+* [rmd_reader Setup Tutorial by Rebecca Weiss](https://rjweiss.github.io/articles/2014_08_25/testing-rmarkdown-integration/)
+<br><br>
+
+### Setup Instructions
+
+First, let's install the RMD Reader extension so that Pelican knows what to do. We'll do this by cloning the pelican-plugins github repository and referencing this in our Pelican configuration file. This has the added benefit of allowing you to easily use other Pelican plugins, should you decide you want to do that.
+
+Execute the following command from the directory where you want to store this repository.  
+*(Run from terminal):*
+```{r clone-repo, engine='bash', eval=FALSE}
+git clone --recursive https://github.com/getpelican/pelican-plugins
+```
+  
+Add the following to your Pelican config file. If you already have these variables defined, simple add the new path and plugin to the end of your existing list.  
+*(Edit pelicanconf.py):*
+```{r plugin-config, engine='python', eval=FALSE}
+PLUGIN_PATHS = ['your-path-to/pelican-plugins']
+PLUGINS = ['rmd_reader']
+```
+  
+Make sure you have the rpy2 python package installed.  
+*(Run from terminal):*
+```{r bash-setup, engine='python', eval=FALSE}
+pip install rpy2
+```
+  
+Also make sure you have the knitr R package installed.  
+*(Run from R):*
+```{r r-setup, eval=FALSE}
+install.packages('knitr')
+```
+<br>
+
+### Additional Setup
+
+The above is the core setup, but there are a few more tweaks that I recommend you do in order to make your life easier down the road.
+
+Add the following to your Pelican config file. Essentially what we're doing here is giving knitr instructions on how to name & where to store image files to reduce the likelihood of you having conflicts and overwriting files from older blog posts. There are several ways to do this, but this seemed the best solution to me. For further details, check out the [official rmd_reader documentation](https://github.com/getpelican/pelican-plugins/tree/master/rmd_reader).  
+*(Edit pelicanconf.py):*
+```{r image-path-config, engine='python', eval=FALSE}
+STATIC_PATHS = ['figure']
+RMD_READER_RENAME_PLOT = 'directory'
+RMD_READER_KNITR_OPTS_CHUNK = {'fig.path': 'figure/'}
+```
+<br>
+### Testing & Examples
+
+Finally, we're ready to test out our new setup. Try this out with your own .Rmd document or use this one, [available on my Github](www.google.com), if you're just looking for a quick test.
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
