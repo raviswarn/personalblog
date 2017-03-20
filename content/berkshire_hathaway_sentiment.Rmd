@@ -170,4 +170,4 @@ tidy_letters %>%
   comparison.cloud(colors = c("#af8dc3", "#7fbf7b"), max.words = 400)
 ```
 
-If you're interested in reproducing this blog post or analysis, please check out the [R code I used to produce this document](www.google.com)
+If you're interested in reproducing this blog post or analysis, please check out the [R code I used to produce this document](https://github.com/michaeltoth/michaeltoth/blob/master/content/berkshire_hathaway_sentiment.Rmd)
