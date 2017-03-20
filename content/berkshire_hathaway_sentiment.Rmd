@@ -114,7 +114,7 @@ ggplot(letters_sentiment, aes(x = year, y = sentiment_pct)) +
   scale_y_percent(limits = c(-0.015, 0.045), breaks = c(-0.01, 0, 0.01, 0.02, 0.03, 0.04)) +
   coord_flip() +
   labs(y='Net Sentiment Ratio',
-       title='Text Sentiment of Berkshire Hathaway Letters to Shareholders, 1977 - 2016',
+       title='Text Sentiment of Berkshire Hathaway Letters to Shareholders',
        subtitle='Negative sentiment is strongly associated with recession years',
        caption='michaeltoth.me') + 
   theme_ipsum(grid="X") +
@@ -151,7 +151,7 @@ ggplot(top_sentiments, aes(x = word, y = n, fill = sentiment)) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   labs(y = "Number of Occurrences",
        x = '',
-       title = 'Text Sentiment of Berkshire Hathaway Letters to Shareholders, 1977 - 2016',
+       title = 'Text Sentiment of Berkshire Hathaway Letters to Shareholders',
        subtitle = 'Most Common Positive and Negative Words',
        caption='michaeltoth.me') +
   theme_ipsum(grid="Y") +
