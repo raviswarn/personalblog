@@ -98,7 +98,7 @@ sp500 <- readHTMLTable('http://pages.stern.nyu.edu/~adamodar/New_Home_Page/dataf
 ```
 
 
-```{r plotting, fig.height=9, fig.width=10, error=F, message=F, warning=F, echo=F}
+```{r plotting, fig.height=13, fig.width=15, fig.align='center', error=F, message=F, warning=F, echo=F}
 # Calculate sentiment score by letter
 letters_sentiment <- tidy_letters %>%  
   count(year, sentiment) %>%
@@ -133,7 +133,7 @@ The results here show that overall, Warren Buffett's letters have been positive.
 
 Another interesting topic to examine is which words were actually the strongest contributors to the positive and negative sentiment in the letters. For this exercise, I analyzed the letters as one single text, and present the most common positive and negative words in the graph below.
 
-```{r sentiment_list, fig.height = 6, fig.width=10, error=F, message=F, warning=F, echo=F}
+```{r sentiment_list, fig.height = 9, fig.width=15, fig.align='center', error=F, message=F, warning=F, echo=F}
 bing_word_counts <- tidy_letters %>%
   count(word, sentiment, sort = TRUE) %>%
   ungroup()
@@ -162,7 +162,7 @@ The results here are interesting. Many of the most common words--'gain', 'gains'
 
 While the above is interesting, and helps us to highlight the most frequent positive and negative words, it's a bit limited in the number of words we can present before the graph becomes too crowded. To see a larger number of words, we can use a word cloud. The word cloud below shows 400 of the most commonly used words, split by positive and negative sentiment. 
 
-```{r wordcloud, fig.height = 10, fig.width = 10, error=F, message=F, warning=F, echo=F}
+```{r wordcloud, fig.height = 10, fig.width = 10, fig.align='center', error=F, message=F, warning=F, echo=F}
 tidy_letters %>%
   filter(sentiment != 'neutral') %>%
   count(word, sentiment, sort = TRUE) %>%
