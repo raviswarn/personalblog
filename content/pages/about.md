@@ -11,7 +11,7 @@ I do the majority of my day-to-day work and analyses using R and *nix command-li
 
 Prior to Orchard I was working as a portfolio analyst at [BlackRock](https://www.blackrock.com) where I worked with large institutional investment clients to value and assess the risks of their investment portfolios.
 
-I graduated from the Wharton School of the University of Pennsylvania, where I concentrated in statistics and financed and received a minor in mathematics.
+I graduated from the Wharton School of the University of Pennsylvania, where I concentrated in statistics and finance and received a minor in mathematics.
 
 Outside of work, I enjoy hanging out in coffee shops, drinking craft beer, and playing squash and table tennis.
 
