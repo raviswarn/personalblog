@@ -1,8 +1,13 @@
 Title: Writing
 Date: 2016-03-13 15:00
 
-Below are links to some of my other writing published outside of this blog. Currently this list is mostly research and blog posts on the marketplace lending industry that I've published at [Orchard](https://www.orchardplatform.com), but I expect this list to continue to grow!
+In addition to my writings on this blog, I am also a frequent contributor to the blog at [Orchard](https://www.orchardplatform.com), where I head up the research team. Orchard is the leading provider of data, technology, and software to the online lending industry. Founded in New York City in 2013, Orchard is building the infrastructure to power the many interactions between originators and institutional investors and help grow online lending into an efficient, transparent, and global financial market. Much of my writing for Orchard is focused on consumer credit, lending, and the financial industry. I try to make my writing accessible to everybody, so I hope you'll find it interesting, even if this is not your industry! Most of my articles and research pieces for Orchard are produced using R, same as my writing here.
 
+If you are interested in me writing a piece for your site, or perhaps in collaborating on one, please feel free to reach out to me on social media! I'm always open to new opportunities. 
+
+* [Orchard Blog - Quantifying the Impact of Standardized Payment Data](https://www.orchardplatform.com/blog/quantifying-the-impact-of-standardized-payment-data/)
+* [Orchard Blog - Signs of a Turnaround? A Closer Look at Orchard’s 2016 Q4 Report](https://www.orchardplatform.com/blog/signs-of-a-turnaround-a-closer-look-at-orchards-2016-q4-report/)
+* [Orchard Research - Quarterly Industry Report (Q4 2016)](https://www.orchardplatform.com/wp-content/uploads/2017/02/consumer_industry_quarterly_Q4.pdf)
 * [Orchard Research - Quarterly Industry Report (Q3 2016)](https://www.orchardplatform.com/wp-content/uploads/2016/11/consumer_industry_quarterly_Q3.pdf)
 * [Orchard Research - Quarterly Industry Report (Q2 2016)](https://www.orchardplatform.com/wp-content/uploads/2016/08/consumer_industry_quarterly_Q2-1.pdf)
 * [Orchard Blog - Lending: A Geographical Analysis](http://www.orchardplatform.com/blog/lending-geographical-analysis/)
