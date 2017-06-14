@@ -8,9 +8,7 @@ summary: A clean & easy workflow for getting R analyses published as on a Pelica
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 [Back in January]({filename}pelican_rmarkdown_setup.md) I wrote a post discussing how to get RMarkdown and Pelican to work together to make the R analysis > blog post workflow a bit easier. While I had high hopes, I was never really happy with the setup I put together then, so I set out to update it. 
 
@@ -31,7 +29,8 @@ The challenge is to find a way to run your .Rmd code, producing any desired figu
 
 Below is the final knitpages.R file I'm using, having made a few minor changes to David's file, which was optimized for Jekyll blogs:
 
-```{r pressure, eval=FALSE}
+
+```r
 #!/usr/local/bin/Rscript --vanilla
 
 # compiles all .Rmd files in _R directory into .md files in blog directory,
