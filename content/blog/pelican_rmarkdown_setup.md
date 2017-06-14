@@ -27,26 +27,30 @@ First, let's install the RMD Reader extension so that Pelican knows what to do. 
 
 Execute the following command from the directory where you want to store this repository.  
 *(Run from terminal):*
-```{r clone-repo, engine='bash', eval=FALSE}
+
+```bash
 git clone --recursive https://github.com/getpelican/pelican-plugins
 ```
   
 Add the following to your Pelican config file. If you already have these variables defined, simple add the new path and plugin to the end of your existing list.  
 *(Edit pelicanconf.py):*
-```{r plugin-config, engine='python', eval=FALSE}
+
+```python
 PLUGIN_PATHS = ['your-path-to/pelican-plugins']
 PLUGINS = ['rmd_reader']
 ```
   
 Make sure you have the rpy2 python package installed.  
 *(Run from terminal):*
-```{r bash-setup, engine='python', eval=FALSE}
+
+```python
 pip install rpy2
 ```
   
 Also make sure you have the knitr R package installed.  
 *(Run from R):*
-```{r r-setup, eval=FALSE}
+
+```r
 install.packages('knitr')
 ```
 <br>
@@ -57,7 +61,8 @@ The above is the core setup, but there are a few more tweaks that I recommend yo
 
 Add the following to your Pelican config file. Essentially what we're doing here is giving knitr instructions on how to name & where to store image files to reduce the likelihood of you having conflicts and overwriting files from older blog posts. There are several ways to do this, but this seemed the best solution to me. For further details, check out the [official rmd_reader documentation](https://github.com/getpelican/pelican-plugins/tree/master/rmd_reader).  
 *(Edit pelicanconf.py):*
-```{r image-path-config, engine='python', eval=FALSE}
+
+```python
 STATIC_PATHS = ['figure']
 RMD_READER_RENAME_PLOT = 'directory'
 RMD_READER_KNITR_OPTS_CHUNK = {'fig.path': 'figure/'}
@@ -76,12 +81,31 @@ That's it. rmd_reader will automatically execute your .Rmd file, produce the rel
 Just to confirm everythng is working correctly, let's do some basic operations on the iris dataset.
 
 First let's see a simple summary of the data:
-```{r iris-table}
+
+```r
 summary(iris)
 ```
 
+```
+##   Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   
+##  Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  
+##  1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  
+##  Median :5.800   Median :3.000   Median :4.350   Median :1.300  
+##  Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  
+##  3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  
+##  Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  
+##        Species  
+##  setosa    :50  
+##  versicolor:50  
+##  virginica :50  
+##                 
+##                 
+## 
+```
+
 Let's finish with a simple k-means cluster analysis:
-```{r iris-plot, warning=F, message=F, error=F}
+
+```r
 library(broom)
 library(dplyr)
 library(ggplot2)
@@ -98,6 +122,8 @@ ggplot(assignments, aes(x = x1, y = x2)) +
     geom_point(aes(color=.cluster)) + 
     geom_point(data=clusters, size=10, shape="x")
 ```
+
+![center](/figures/pelican_rmarkdown_setup/iris-plot-1.png)
 
 ### Closing Remarks
 
