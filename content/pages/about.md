@@ -13,6 +13,8 @@ Prior to Orchard I was working as a portfolio analyst at [BlackRock](https://www
 
 I graduated from the Wharton School of the University of Pennsylvania, where I concentrated in statistics and finance and received a minor in mathematics.
 
-Outside of work, I enjoy hanging out in coffee shops, drinking craft beer, and playing squash and table tennis.
+Outside of work, I enjoy hanging out in coffee shops, drinking craft beer, and playing squash and table tennis. I also produce art using R, which you can check out on [My Etsy Store](https://www.etsy.com/shop/ArtfulData)!
 
 If you find any of my posts or projects interesting, definitely reach out! I'd love to hear your thoughts and suggestions!
+
+I publish all of my R posts on [R-Bloggers](https://www.r-bloggers.com/) where you'll also find a ton of amazing R content from other users.
