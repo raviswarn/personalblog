@@ -71,5 +71,6 @@ ENV/
 output/
 plugins/
 themes/
-figure/
 *.pid
+_caches
+_resources
