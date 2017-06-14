@@ -2,7 +2,7 @@ Title: Percolation
 Date: 2016-03-13 15:00
 Status: hidden
 
-Read more about this project and my implementation on my [blog]({filename}../percolation_post.md)
+Read more about this project and my implementation on my [blog]({filename}../blog/percolation_post.md)
 
 <!DOCTYPE html>
 <html>
