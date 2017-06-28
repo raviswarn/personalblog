@@ -74,3 +74,5 @@ themes/
 *.pid
 _caches
 _resources
+.Rproj.user
+.Rhistory
