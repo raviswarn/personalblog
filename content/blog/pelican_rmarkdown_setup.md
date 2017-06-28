@@ -71,7 +71,7 @@ RMD_READER_KNITR_OPTS_CHUNK = {'fig.path': 'figure/'}
 
 ### Testing & Examples
 
-Finally, we're ready to test out our new setup. Try this out with your own .Rmd document or use this one, [available on my Github](https://raw.githubusercontent.com/michaeltoth/michaeltoth/master/content/pelican_rmarkdown_setup.Rmd), if you're just looking for a quick test. The steps are relatively simple:
+Finally, we're ready to test out our new setup. Try this out with your own .Rmd document or use this one, [available on my Github](https://www.github.com/michaeltoth/michaeltoth/blob/master/content/_R/pelican_rmarkdown_setup.Rmd), if you're just looking for a quick test. The steps are relatively simple:
 
 1. Save your .Rmd file into the same content folder where you'd put any other .md file for your Pelican blog
 2. Run your Pelican blog like you would normally. 

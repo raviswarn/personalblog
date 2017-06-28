@@ -47,4 +47,4 @@ While the above is interesting, and helps us to highlight the most frequent posi
 
 <img src="/figures/berkshire_hathaway_sentiment/wordcloud-1.png" title="center" alt="center" style="display: block; margin: auto;" />
 
-If you're interested in reproducing this blog post or analysis, please check out the [R code I used to produce this document](https://github.com/michaeltoth/michaeltoth/blob/master/content/berkshire_hathaway_sentiment.Rmd)
+If you're interested in reproducing this blog post or analysis, please check out the [R code I used to produce this document](https://github.com/michaeltoth/michaeltoth/blob/master/content/_R/berkshire_hathaway_sentiment.Rmd)
