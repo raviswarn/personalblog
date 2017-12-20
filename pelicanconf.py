@@ -2,23 +2,17 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Michael Toth'
-SITENAME = u"Michael Toth's Blog"
+AUTHOR = u'Raveendra Swarna'
+SITENAME = u"Swarna's's Blog"
 SITETITLE = AUTHOR
-SITESUBTITLE = u'Data Scientist, R Programmer'
+SITESUBTITLE = u'Data Scientist, Python, R Programmer'
 SITEDESCRIPTION = u'%s\'s Thoughts and Writings on Statistics, Data Science, Programming, and Economics' % AUTHOR
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://swarna.info'
 SITELOGO = SITEURL + '/images/profile.jpeg'
 FAVICON = SITEURL + '/images/favicon.ico' 
 
 ROBOTS = 'index, follow'
 
-# Creative Commons Licensing
-CC_LICENSE = {
-        'name': 'Creative Commons Attribution-ShareAlike',
-        'version': '4.0',
-        'slug': 'by-sa'
-}
 COPYRIGHT_YEAR = 2017
 
 
@@ -27,7 +21,7 @@ PATH = 'content'
 STATIC_PATHS = ['images', 'figures']
 ARTICLE_PATHS = ['blog']
 PAGE_PATHS = ['pages']
-TIMEZONE = 'America/New_York'
+TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
 DEFAULT_DATE = 'fs'
 
@@ -38,9 +32,9 @@ USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
 
 # Social widget
-SOCIAL = (('twitter', 	'https://twitter.com/Michael_Toth'),
-	 ('github', 	'https://github.com/michaeltoth'),
-	 ('linkedin',   'https://www.linkedin.com/in/michaelttoth'))
+SOCIAL = (('twitter', 	'https://twitter.com/swarnaravi'),
+	 ('github', 	'https://github.com/swarnaravi'),
+	 ('linkedin',   'https://www.linkedin.com/in/swarnaravi'))
 
 MENUITEMS = (('Archives', '/archives.html'),
             ('Categories', '/categories.html'),

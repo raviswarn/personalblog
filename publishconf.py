@@ -9,7 +9,7 @@ sys.path.append(os.curdir)
 
 from pelicanconf import *
 
-SITEURL = 'http://michaeltoth.me'
+SITEURL = 'http://swarna.info'
 SITELOGO = SITEURL + '/images/profile.jpeg'
 FAVICON = SITEURL + '/images/favicon.ico' 
 RELATIVE_URLS = False
@@ -21,5 +21,5 @@ CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-DISQUS_SITENAME = 'michaeltoth'
-GOOGLE_ANALYTICS = 'UA-75216625-1'
+DISQUS_SITENAME = 'swarna'
+GOOGLE_ANALYTICS = 'UA-75216624-1'
