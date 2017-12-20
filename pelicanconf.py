@@ -16,7 +16,7 @@ ROBOTS = 'index, follow'
 COPYRIGHT_YEAR = 2017
 
 
-THEME = u"../Flex"
+#THEME = u"../Flex"
 PATH = 'content'
 STATIC_PATHS = ['images', 'figures']
 ARTICLE_PATHS = ['blog']
